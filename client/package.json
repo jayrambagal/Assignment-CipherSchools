@@ -7,13 +7,10 @@
   "main": "src/index.js",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
-    "chart.js": "^4.2.1",
     "install": "^0.13.0",
     "npm": "^9.6.4",
     "react": "18.2.0",
-    "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
-    "react-hook-form": "^7.43.9",
     "react-icons": "^4.8.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.9.0",
