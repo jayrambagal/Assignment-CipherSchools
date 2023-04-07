@@ -1,0 +1,51 @@
+
+
+.home-conatiner{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+nav{
+
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #262C36;
+}
+
+.logo{
+    display: flex;
+    font-size: 1.4rem;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.mini-container{
+
+    height: 90vh;
+    width: 100%;
+    
+}
+.navlinks{
+    
+    padding-left: 80px;
+    display: flex;
+    width: 90px;
+    height: auto;
+    justify-content: space-around;
+}
+.navlinks > a {
+padding: 20px;
+color: antiquewhite;
+cursor: pointer;
+}

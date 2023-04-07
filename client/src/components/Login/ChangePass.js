@@ -1,13 +1,13 @@
 import React from 'react'
-import logo2 from "./logo2.png"
+// import logo2 from "./logo2.png"
 import { NavLink } from 'react-router-dom'
 
 const ChangePass = () => {
   return (
    
     <main
-    className="main_login pt5 black-80 center"
-    style={{ maxWidth: "50%", maxHeight: "30%", }}
+    className="main_login"
+   
   >
 
     <form className="measure" method='POST'>
