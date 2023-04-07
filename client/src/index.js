@@ -6,6 +6,7 @@ import App from "./App";
 import Login from "./components/Login/Login";
 import ForgetPass from "./components/Login/ForgetPass";
 import Register from "./components/Login/Register";
+import Home from "./components/Home";
 
 
 const rootElement = document.getElementById("root");
@@ -16,6 +17,7 @@ root.render(
   <StrictMode>
     
     <Routes>
+    
     <Route path="/" element={<Login/>}></Route>
     <Route path="/home" element={<App/>}></Route>
     <Route path="/forget" element={<ForgetPass/>} />

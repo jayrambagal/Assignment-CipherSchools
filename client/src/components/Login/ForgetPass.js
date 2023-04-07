@@ -65,11 +65,13 @@ const ForgetPass = () => {
     }
 
   return (
-    <main
-      className="main_login pt5 black-80 center"
-      style={{ maxWidth: "50%", maxHeight: "30%", }}
-    >
 
+    <div className="container">
+    <main
+    className="main_login pt5 black-80 center"
+    
+    >
+    
     
 
       {otpForm ? 
@@ -77,7 +79,7 @@ const ForgetPass = () => {
         <form className="measure" method='POST'>
       
         <h2 style={{color: "#F3912E"}}>Reset Password</h2>
-        <h4 >For changeing or Forgotten your password? Enter your e-mail address below, and we'll send you an e-mail allowing you to reset it.</h4>
+        <p >For changeing or Forgotten your password? Enter your e-mail address below, and we'll send you an e-mail allowing you to reset it.</p>
         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
           <div className="mt3">
             <label
@@ -85,7 +87,7 @@ const ForgetPass = () => {
               htmlFor="full-name"
               style={{ textAlign: "left" }}
             >
-              Email
+            Email
             </label>
             <input
               className="f6 br2 ph3 pv2 mb2 dib black w-100"
@@ -110,7 +112,7 @@ const ForgetPass = () => {
         </fieldset>
         
         <div className='prev_next_forget'>
-          <input
+        <input
             className="f6 grow br2 ph3 pv2 mb2 dib white"
             style={{
               borderStyle: "none",
@@ -122,8 +124,8 @@ const ForgetPass = () => {
             value="Reset my Password"
             onClick={SendOtp}
             
-          />
-          
+            />
+            
         </div>
       </form> 
       
@@ -131,7 +133,7 @@ const ForgetPass = () => {
       
       <form className="measure" method='POST'>
       
-        <h2 style={{color: "#F3912E"}}>Reset Password</h2>
+      <h2 style={{color: "#F3912E"}}>Reset Password</h2>
         <h4 >Enter a OTP we'll send you an e-mail.</h4>
         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
           <div className="mt3">
@@ -139,10 +141,10 @@ const ForgetPass = () => {
           className="db lh-copy f6 mb1"
           htmlFor="full-name"
           style={{ textAlign: "left" }}
-        >
+          >
           Enter the OTP
-        </label>
-        <input
+          </label>
+          <input
           className="f6 br2 ph3 pv2 mb2 dib black w-100"
           type="text"
           
@@ -184,7 +186,7 @@ const ForgetPass = () => {
               }}
               required
               autocomplete="off"
-            />
+              />
 
             <label
               className="db lh-copy f6 mb1"
@@ -231,10 +233,11 @@ const ForgetPass = () => {
           />
           
         </div>
-      </form> 
-    }
-    </main>
-  )
+        </form> 
+      }
+      </main>
+      </div>
+      )
 }
 
 export default ForgetPass

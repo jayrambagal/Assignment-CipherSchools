@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import logo2 from '../assets/logo2.png';
 import "./login.css"
 import logoname from "../assets/logoname.png"
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const Register = () => {
@@ -17,13 +17,19 @@ const Register = () => {
     
 
   return (
+
+    <div class="container">
+      
+    
     <main
-      className="main_login pt5 black-80 center"
-      style={{ maxWidth: "50%", maxHeight: "30%", }}
+      className="main_login "
     >
 
-    <div className="ma5 center">
-            <img className='' style={{width: '200px', height: 'auto'}} src={logoname} alt='logo'/>
+    <div className="login-header">
+    <div className="logo flex ">
+    <img className='' src={"https://www.cipherschools.com/static/media/Cipherschools_icon@2x.3b571d743ffedc84d039.png"} alt='logo'/>
+    <h5>Cipher schools</h5>
+    </div>
             <h2>Hey, Welcome!</h2>
             <h4>Please provide your Registration details</h4>
         </div>
@@ -175,12 +181,14 @@ const Register = () => {
               backgroundColor: "#F3912E",
             }}
             type="submit"
-            value="Login"
+            value="Signup"
             // onClick={LoginPage}
           />
         </div>
       </form>
     </main>
+
+    </div>
   )
 }
 
