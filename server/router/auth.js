@@ -183,10 +183,14 @@ router.post('/changepass',async(req,res)=>{
     }
 })
 
+router.get("/",(req,res)=>{
+    res.send("hello")
+})
+
 // adding middleware in /home 
 router.get("/home",Authenticate,(req,res)=>{
 
-    res.status(200).send("Welcome 🙌 ");
+    res.status(200).send("Welcome");
 })
 
 // logout
