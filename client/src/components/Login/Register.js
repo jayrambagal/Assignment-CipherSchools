@@ -30,7 +30,6 @@ const Register = () => {
     <img className='' src={"https://www.cipherschools.com/static/media/Cipherschools_icon@2x.3b571d743ffedc84d039.png"} alt='logo'/>
     <h5>Cipher schools</h5>
     </div>
-            <h2>Hey, Welcome!</h2>
             <h4>Please provide your Registration details</h4>
         </div>
 
@@ -164,8 +163,8 @@ const Register = () => {
             
           
             <div className="Change_Forget">
-            {/*<NavLink to="/changepassword" style={{marginTop:"10px"}}>Change password </NavLink>*/}
-            <NavLink to="/" style={{marginTop:"10px"}}> Login ? </NavLink> <br></br>
+            {/*<NavLink to="/changepassword" style={{marginTop:"10px"}}>Change password </NavLink>*/}<br></br>
+            <NavLink to="/" style={{marginTop:"10px"}}>already registred Login ? </NavLink> <br></br>
             
           </div>
           </div>

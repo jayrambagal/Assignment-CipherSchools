@@ -7,7 +7,9 @@ import Login from "./components/Login/Login";
 import ForgetPass from "./components/Login/ForgetPass";
 import Register from "./components/Login/Register";
 import Home from "./components/Home";
-
+import { disableReactDevTools } from "@fvilers/disable-react-devtools"
+ 
+if(process.env.NODE_ENV === "production") disableReactDevTools()
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);

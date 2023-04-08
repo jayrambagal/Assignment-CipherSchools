@@ -49,3 +49,9 @@ padding: 20px;
 color: antiquewhite;
 cursor: pointer;
 }
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

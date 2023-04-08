@@ -171,7 +171,7 @@ const ForgetPass = () => {
             </label>
             <input
               className="f6 br2 ph3 pv2 mb2 dib black w-100"
-              type="email"
+              type="password"
               name="full-name"
               id="full-name"
               size="30"
@@ -197,7 +197,7 @@ const ForgetPass = () => {
             </label>
             <input
               className="f6 br2 ph3 pv2 mb2 dib black w-100"
-              type="email"
+              type="password"
               name="full-name"
               id="full-name"
               size="30"
